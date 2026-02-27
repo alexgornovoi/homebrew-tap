@@ -3,7 +3,7 @@ cask "rulepack" do
   name "rulepack"
   desc "Compose instruction modules from Git-based rule packs."
   homepage "https://github.com/alexgornovoi/rule-pack"
-  version "0.1.8"
+  version "0.1.9"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "rulepack" do
     on_intel do
       url "https://github.com/alexgornovoi/rule-pack/releases/download/v#{version}/rulepack_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/alexgornovoi/rule-pack"
-      sha256 "68590df7cd6bdc316c41877561716a750ead7d2fd738c1f09fd1a23fbda52ada"
+      sha256 "f90e3c5596c8a20d3a2940adaabddcab479cd278a022d72f09a7b12875d09d7a"
     end
     on_arm do
       url "https://github.com/alexgornovoi/rule-pack/releases/download/v#{version}/rulepack_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/alexgornovoi/rule-pack"
-      sha256 "bd9c9697bed0ac9176b2fcdb33fd8626a0bf390b40e9668c36a72ce086dee923"
+      sha256 "56528a23f16c470dcde8204c0e19cd8470549e353f0d7e5a99aae3c0ba097c19"
     end
   end
 
@@ -28,12 +28,12 @@ cask "rulepack" do
     on_intel do
       url "https://github.com/alexgornovoi/rule-pack/releases/download/v#{version}/rulepack_#{version}_linux_amd64.tar.gz",
         verified: "github.com/alexgornovoi/rule-pack"
-      sha256 "43b8cc1b7c990098a65bd73f8c1efbf82ac2d181a0c642d1a3bf8c237be8ceee"
+      sha256 "5eea6a31617c1019ddf7af3365df4adf32191f1ca3d8651d9bf58372301b5c7f"
     end
     on_arm do
       url "https://github.com/alexgornovoi/rule-pack/releases/download/v#{version}/rulepack_#{version}_linux_arm64.tar.gz",
         verified: "github.com/alexgornovoi/rule-pack"
-      sha256 "8676860e7a546302454064a1ef0e10c84346b56fd69335ab2af569881b9debb5"
+      sha256 "a4f0c285d999730b5073a7a2323a28f29e5de42498d500a4d42f23048d3266d3"
     end
   end
 
